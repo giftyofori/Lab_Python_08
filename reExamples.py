@@ -1,11 +1,12 @@
 import re
 
 # find the word pretty
-def hasPretty(inp):
-    return re.search(r'pretty', inp) != None
+'''def hasPretty(inp):
+    return re.search(r'|R pretty', inp) != None
 print hasPretty('i am pretty so yeah')
-print hasPretty('i am not that ahhh')
+print hasPretty('i am not that ahhh')'''
     
+'''
 def whichPet(inp):
     result = re.search(r'pet (cat|dog)', inp)
     if result == None:
@@ -13,7 +14,7 @@ def whichPet(inp):
     return result.group(1)
 print whichPet('my pet cat')
 print whichPet('my pet dog was cool')
-print whichPet('my pet donkey')
+print whichPet('my pet donkey')'''
 
 
 def getAdjs(inp):
